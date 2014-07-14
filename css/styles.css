@@ -1,0 +1,140 @@
+/* Hannah Murray ; The Charles */
+
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(http://themes.googleusercontent.com/static/fonts/oldstandardtt/v5/n6RTCDcIPWSE8UNBa4k-DOeKpinAksS0bOq9o5QARNc.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Old Standard TT Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Old Standard TT Bold'), local('OldStandardTT-Bold'), url(http://themes.googleusercontent.com/static/fonts/oldstandardtt/v5/5Ywdce7XEbTSbxs__4X1_CIk_qWs4Bq7Qljawt51rk4.woff) format('woff');
+}
+
+body {
+	text-align: center;
+}
+
+.masthead {
+	margin: 2% 0;
+}
+
+.masthead nav {
+	margin-top: 5%;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+}
+
+.masthead a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 13px;
+	letter-spacing: .2em;
+}
+
+.alpha {
+	padding-right: 5%;
+}
+
+.omega {
+	padding-left: 5%;
+}
+
+.flexslider {
+	margin-bottom: 2%;
+}
+
+.caption {
+	color: #333333;
+	width: 41%;
+	margin: 0 auto;
+}
+
+hr {
+	width: 26%;
+	height: .15em !important;
+	border: none !important;
+	background-color: #333333;
+	margin-top: 5%;
+	margin-bottom: 4%;
+}
+
+.caption h1 {
+	font-family: 'Old Standard TT Bold';
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: .15em;
+}
+
+.caption p {
+	font-family: 'Open Sans Light';
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.plan {
+	margin-top: 4%;
+	background-color: #3d404e;
+}
+
+.plan .wrapper {
+	width: 780px;
+	margin: 0 auto;
+}
+
+.plan h1 {
+	padding-top: 4%;
+	text-transform: uppercase;
+	font-family: 'Old Standard TT Bold';
+	color: white;
+	letter-spacing: .2em;
+}
+
+.plan p {
+	text-align: left;
+	font-family: 'Old Standard TT';
+	font-size: 16px;
+	letter-spacing: .05em;
+	color: white;
+}
+
+form {
+	text-align: left;
+	color: white;
+	font-family: 'Open Sans Light';
+}
+
+.row {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+input[type=text] {
+	width: 50%;
+}
+
+input[type=date] {
+	width: 20%;
+}
+
+textarea {
+	width: 780px;
+}
