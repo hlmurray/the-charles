@@ -10,6 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">   
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/flexslider.css">
 	</head>
 	<body>
 		<header class="masthead">
@@ -22,7 +23,17 @@
 		</header>
 		<main>
 			<div class="flexslider">
-				<img src="img/tc_hero1.png">
+				<ul class="slides">
+				    <li>
+				      <img src="img/tc_hero1.png" />
+				    </li>
+				    <li>
+				      <img src="img/tc_hero2.png" />
+				    </li>
+				    <li>
+				      <img src="img/tc_hero3.png" />
+				    </li>
+				  </ul>
 			</div>
 			<section>
 				<div class="caption">
@@ -43,12 +54,12 @@
 							</select>
 						</div>
 						<div class="row">
-							<input id="checkbox-input-2" type="checkbox">
-        					<label for="checkbox-input-2" class="input-helper input-helper--checkbox">Give us your budget</label>
-							<input id="checkbox-input-3" type="checkbox">
-        					<label for="checkbox-input-3" class="input-helper input-helper--checkbox">Give us your budget</label>
-							<input id="checkbox-input-4" type="checkbox">
-        					<label for="checkbox-input-4" class="input-helper input-helper--checkbox">Give us your budget</label>
+							<input id="checkbox1" type="checkbox">
+        					<label for="checkbox1" class="input-budget input-budget--checkbox">Give us your budget</label>
+							<input id="checkbox2" type="checkbox">
+        					<label for="checkbox2" class="input-budget input-budget--checkbox">Give us your budget</label>
+							<input id="checkbox3" type="checkbox">
+        					<label for="checkbox3" class="input-budget input-budget--checkbox">Give us your budget</label>
 						</div>
 						<textarea rows="5" col="50">Additional Notes and Information.</textarea>
 					</form>
@@ -72,6 +83,10 @@
 				<a href="#"><img src="img/tc_pinterest.png"></a>
 			</div>
 		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 
 	</body>
 </html>

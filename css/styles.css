@@ -132,6 +132,7 @@ select {
 	background-color: #3d404e;
 	border: 1px solid #8287a6;
 	color: #8287a6;
+	outline: 0;
 }
 
 select {
@@ -153,29 +154,30 @@ input[type=date] {
 	width: 20%;
 }
 
-.input-helper {
+.input-budget {
 	position: relative;
 	display: inline-block;
-	margin-bottom: 5px;
+	width: 33%;
 }
 
-.input-helper:before {
+.input-budget:before {
 	content: '';
 	display: block;
 	position: absolute;
 }
 
-.input-helper--checkbox {
-	padding-left: 20px;
+.input-budget--checkbox {
+	padding-left: 3%;
 }
 
-.input-helper--checkbox:before {
-	top: 2px;
+.input-budget--checkbox:before {
+	top: 5px;
 	left: 0;
 	width: 13px;
 	height: 13px;
 	border: 1px solid #8287a6;
 }
+
 input[type="checkbox"] {
     display: none;
 }
@@ -189,6 +191,7 @@ textarea {
 	background-color: #3d404e;
 	border-color: #8287a6;
 	color: #8287a6;
+	outline: 0;
 }
 
 footer {
