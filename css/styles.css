@@ -44,16 +44,16 @@ body {
 
 .masthead a {
 	text-decoration: none;
-	color: #333333;
+	color: #3d404e;
 	font-size: 13px;
 	letter-spacing: .2em;
 }
 
-.alpha {
+.masthead .alpha {
 	padding-right: 5%;
 }
 
-.omega {
+.masthead .omega {
 	padding-left: 5%;
 }
 
@@ -62,17 +62,16 @@ body {
 }
 
 .caption {
-	color: #333333;
+	color: #3e404e;
 	width: 41%;
 	margin: 0 auto;
 }
 
 hr {
-	width: 26%;
+	width: 150px;
 	height: .15em !important;
 	border: none !important;
-	background-color: #333333;
-	margin-top: 5%;
+	background-color: #3d404e;
 	margin-bottom: 4%;
 }
 
@@ -118,8 +117,9 @@ hr {
 
 form {
 	text-align: left;
-	color: white;
 	font-family: 'Open Sans Light';
+	padding-bottom: 4%;
+	color: #8287a6;
 }
 
 .row {
@@ -127,14 +127,107 @@ form {
 	margin-bottom: 2%;
 }
 
+input,
+select {
+	background-color: #3d404e;
+	border: 1px solid #8287a6;
+	color: #8287a6;
+}
+
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  width: 20%;
+}
+
+.budget::-webkit-input-placeholder {
+	color: #8287a6;
+}
+
 input[type=text] {
 	width: 50%;
+	outline: 0;
 }
 
 input[type=date] {
 	width: 20%;
 }
 
+.input-helper {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.input-helper:before {
+	content: '';
+	display: block;
+	position: absolute;
+}
+
+.input-helper--checkbox {
+	padding-left: 20px;
+}
+
+.input-helper--checkbox:before {
+	top: 2px;
+	left: 0;
+	width: 13px;
+	height: 13px;
+	border: 1px solid #8287a6;
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + label:before {
+    background: #8287a6;
+}
+
 textarea {
 	width: 780px;
+	background-color: #3d404e;
+	border-color: #8287a6;
+	color: #8287a6;
+}
+
+footer {
+	margin: 1% 0;
+	border-top: 1px solid #3d404e;
+	border-bottom: 1px solid #3d404e;
+}
+
+footer h1 {
+	margin-top: 7%;
+	font-family: 'Old Standard TT Bold';
+	font-size: 30px;
+	letter-spacing: .2em;
+	color: #3d404e;
+	text-transform: uppercase;
+}
+
+footer img {
+	vertical-align: sub;
+	padding-right: 1%;
+}
+
+.phone,
+.email {
+	color: #3d404e;
+	font-family: 'Old Standard TT';
+	font-size: 24px;
+	letter-spacing: .1em;
+	line-height: 36px;
+}
+
+.social {
+	margin: 5% 0;
+}
+
+.social .alpha {
+	margin-left: 0;
+}
+
+.social a {
+	margin-left: 3%;
 }
