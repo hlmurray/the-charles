@@ -32,6 +32,10 @@ body {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
+
 .masthead {
 	margin: 2% 0;
 }
@@ -43,7 +47,6 @@ body {
 }
 
 .masthead a {
-	text-decoration: none;
 	color: #3d404e;
 	font-size: 13px;
 	letter-spacing: .2em;
@@ -125,6 +128,7 @@ form {
 .row {
 	width: 100%;
 	margin-bottom: 2%;
+	text-align: center;
 }
 
 input,
@@ -133,6 +137,23 @@ select {
 	border: 1px solid #8287a6;
 	color: #8287a6;
 	outline: 0;
+}
+
+input[type=submit] {
+	background-color: #8287a6;
+	color: white;
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Old Standard TT';
+	margin-top: 6%;
+	letter-spacing: .2em;
+	font-size: 18px;
+	padding: 2%;
+}
+
+input, select, textarea {
+	padding: 1%;
 }
 
 select {
@@ -150,14 +171,17 @@ input[type=text] {
 	outline: 0;
 }
 
-input[type=date] {
+#datepicker {
 	width: 20%;
+	margin: 0 2%;
+	cursor: default;
 }
 
 .input-budget {
 	position: relative;
 	display: inline-block;
-	width: 33%;
+	width: 29%;
+	text-align: left;
 }
 
 .input-budget:before {
@@ -187,7 +211,7 @@ input[type="checkbox"]:checked + label:before {
 }
 
 textarea {
-	width: 780px;
+	width: 760px;
 	background-color: #3d404e;
 	border-color: #8287a6;
 	color: #8287a6;
@@ -221,6 +245,10 @@ footer img {
 	font-size: 24px;
 	letter-spacing: .1em;
 	line-height: 36px;
+}
+
+.email a {
+	color: #3d404e;
 }
 
 .social {

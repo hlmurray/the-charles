@@ -8,9 +8,10 @@
 		<title>The Charles</title>
 		<meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">   
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
 	</head>
 	<body>
 		<header class="masthead">
@@ -48,9 +49,9 @@
 					<form>
 						<div class="row">
 							<input type="text" class="budget" placeholder="Give us your budget range.">
-							<input type="date" placeholder="The Date">
+							<input type="text" id="datepicker" value="The Date">
 							<select>
-								<option value="Select a Location">Select a Location</option>
+								<option value="The Location">The Location</option>
 							</select>
 						</div>
 						<div class="row">
@@ -62,6 +63,9 @@
         					<label for="checkbox3" class="input-budget input-budget--checkbox">Give us your budget</label>
 						</div>
 						<textarea rows="5" col="50">Additional Notes and Information.</textarea>
+						<div class="row">
+							<input type="submit" value="send us your request">
+						</div>
 					</form>
 					</div>
 				</div>
@@ -74,7 +78,7 @@
 				<img src="img/tc_phone.png">1.123.456.7890 <br>
 			</div>
 			<div class="email">
-				<img src="img/tc_stamp.png">info@thecharlesnyc.com
+				<a href="mailto:info@thecharlesnyc.com"><img src="img/tc_stamp.png">info@thecharlesnyc.com</a>
 			</div>
 			<div class="social">
 				<a href="#" class="alpha"><img src="img/tc_twitter.png"></a>
@@ -83,8 +87,8 @@
 				<a href="#"><img src="img/tc_pinterest.png"></a>
 			</div>
 		</footer>
-
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
 
