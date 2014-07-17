@@ -14,15 +14,24 @@
 		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
 	</head>
 	<body>
-		<header class="masthead">
-			<img src="img/tc_logo.png" alt="The Charles logo">
-			<nav>
-				<a href="#" class="alpha">about</a>
+		<header class="masthead clearfix">
+			<img src="img/tc_logo.png" class="header-logo" alt="The Charles logo">
+			<nav class="header-nav">
+				<a href="#">about</a>
 				<a href="#">book our service</a>
-				<a href="#" class="omega">contact</a>
+				<a href="#">contact</a>
 			</nav>
 		</header>
-		<main>
+		<header class="masthead--sticky clearfix">
+			<img src="img/tc_sticky.png" alt="The Charles sticky logo">
+			<nav class="header-sticky">
+				<a href="#">about</a>
+				<a href="#">plan your journey</a>
+				<a href="#">the journal</a>
+				<a href="#">contact</a>
+			</nav>
+		</header>
+		<main class="clearfix">
 			<div class="flexslider">
 				<ul class="slides">
 				    <li>
@@ -37,13 +46,13 @@
 				  </ul>
 			</div>
 			<section>
-				<div class="caption">
+				<div class="about">
 					<h1>we help you create the most memorable moment with your love.</h1>
-					<hr/>
+					<hr class="border">
 					<p>Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
 				</div>
-				<div class="plan">
-					<div class="wrapper">
+				<div class="form-sec">
+					<div class="wrapper clearfix">
 					<h1>plan your big day</h1>
 					<p>If you don't have a clue, let us help you find out.</p>
 					<form>
@@ -62,7 +71,7 @@
 							<input id="checkbox3" type="checkbox">
         					<label for="checkbox3" class="input-budget input-budget--checkbox">Give us your budget</label>
 						</div>
-						<textarea rows="5" col="50">Additional Notes and Information.</textarea>
+						<textarea rows="5" col="50" placeholder="Additional Notes and Information."></textarea>
 						<div class="row">
 							<input type="submit" value="send us your request">
 						</div>
@@ -71,9 +80,9 @@
 				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="clearfix">
 			<h1>contact us</h1>
-			<hr>
+			<hr class="border">
 			<div class="phone">
 				<img src="img/tc_phone.png">1.123.456.7890 <br>
 			</div>
@@ -81,7 +90,7 @@
 				<a href="mailto:info@thecharlesnyc.com"><img src="img/tc_stamp.png">info@thecharlesnyc.com</a>
 			</div>
 			<div class="social">
-				<a href="#" class="alpha"><img src="img/tc_twitter.png"></a>
+				<a href="#"><img src="img/tc_twitter.png"></a>
 				<a href="#"><img src="img/tc_vimeo.png"></a>
 				<a href="#"><img src="img/tc_facebook.png"></a>
 				<a href="#"><img src="img/tc_pinterest.png"></a>
@@ -89,8 +98,7 @@
 		</footer>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
-		<script type="text/javascript" src="js/index.js"></script>
-		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-
+		<script src="js/index.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
 	</body>
 </html>
