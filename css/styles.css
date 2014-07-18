@@ -73,10 +73,6 @@ select {
 	background-position: 105px 17px;
 }
 
-select::-ms-expand {
-    display: none;
-}
-
 textarea {
 	width: 760px;
 	background-color: #3d404e;
@@ -87,10 +83,6 @@ textarea {
 
 input, select, textarea {
 	padding: 1%;
-}
-
-::-webkit-input-placeholder {
-	color: #8287a6;
 }
 
 input[type=text] {
@@ -218,7 +210,7 @@ footer {
 	opacity: 1;
 	-webkit-transform: translateY(5px);
 	   -moz-transform: translateY(5px);
-	     -ms-transform: translateY(5px);
+	    -ms-transform: translateY(5px);
 	     -o-transform: translateY(5px);
 	        transform: translateY(5px);
 }
@@ -324,6 +316,14 @@ footer {
 	width: 100%;
 	margin-bottom: 2%;
 	text-align: center;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+::-webkit-input-placeholder {
+	color: #8287a6;
 }
 
 #datepicker {
