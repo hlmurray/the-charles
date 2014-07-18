@@ -66,11 +66,11 @@ select {
 	    -ms-border-radius: 0px;
 	     -o-border-radius: 0px;
 		border-radius: 0px;
-	width: 16%;
+	width: 17%;
 	background: url(../img/tc_arrow.png) no-repeat right;
 	background-position-y: 17px;
-	background-position-x: 105px;
-	background-position: 105px 17px;
+	background-position-x: 113px;
+	background-position: 113px 17px;
 	text-indent: 0.01px;
     	text-overflow: '';
 }
@@ -113,9 +113,9 @@ input[type=submit] {
 	padding: 2%;
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
-		-ms-transition: all 0.3s ease-in-out;
-		 -o-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;
+	    -ms-transition: all 0.3s ease-in-out;
+	     -o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
 }
 
 footer {
@@ -324,18 +324,32 @@ select::-ms-expand {
     display: none;
 }
 
-::-webkit-input-placeholder {
-	color: #8287a6;
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color: #8287a6;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color: #8287a6;
+    opacity: 1;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder { 
+    color: #8287a6;
+    opacity: 1;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color: #8287a6;
 }
 
 #datepicker {
-	width: 13%;
+	width: 12%;
 	margin: 0 2%;
 	cursor: default;
 	background: url(../img/tc_arrow.png) no-repeat;
 	background-position-y: 17px;
-	background-position-x: 100px;
-	background-position: 100px 17px;
+	background-position-x: 90px;
+	background-position: 90px 17px;
 }
 
 .input-budget {
@@ -397,9 +411,9 @@ footer img {
 	color: #3d404e;
 	-webkit-transition: all 0.25s ease-in-out;
 	   -moz-transition: all 0.25s ease-in-out;
-		-ms-transition: all 0.25s ease-in-out;
-		 -o-transition: all 0.25s ease-in-out;
-            transition: all 0.25s ease-in-out;
+	    -ms-transition: all 0.25s ease-in-out;
+	     -o-transition: all 0.25s ease-in-out;
+                transition: all 0.25s ease-in-out;
 }
 
 .email a:hover {
