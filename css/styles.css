@@ -60,12 +60,12 @@ select {
 	   -moz-appearance: none;
 	    -ms-appearance: none;
 	     -o-appearance: none;
-	   		appearance: none;
+	   	appearance: none;
 	-webkit-border-radius: 0px;
 	   -moz-border-radius: 0px;
 	    -ms-border-radius: 0px;
-	   	 -o-border-radius: 0px;
-		 	border-radius: 0px;
+	     -o-border-radius: 0px;
+		border-radius: 0px;
 	width: 16%;
 	background: url(../img/tc_arrow.png) no-repeat right;
 	background-position-y: 17px;
@@ -153,9 +153,9 @@ footer {
 	background: white;
 	-webkit-transition: all 0.5s ease-in-out;
 	   -moz-transition: all 0.5s ease-in-out;
-		-ms-transition: all 0.5s ease-in-out;
-		 -o-transition: all 0.5s ease-in-out;
-            transition: all 0.5s ease-in-out;
+	    -ms-transition: all 0.5s ease-in-out;
+	     -o-transition: all 0.5s ease-in-out;
+                transition: all 0.5s ease-in-out;
 }
 
 .masthead.sticky {
