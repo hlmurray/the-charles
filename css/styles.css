@@ -71,6 +71,8 @@ select {
 	background-position-y: 17px;
 	background-position-x: 105px;
 	background-position: 105px 17px;
+	text-indent: 0.01px;
+    	text-overflow: '';
 }
 
 textarea {
